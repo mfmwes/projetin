@@ -1,12 +1,12 @@
 const nao = document.getElementById('nao');
 const sim = document.getElementById('sim');
 
-nao.addEventListener('mouseenter', estilos);
-nao.addEventListener('ontouchend', estilos); // mobile
+const naoAppend = '<a> Não </a>';
 
-nao.addEventListener('mouseleave', ()=> nao.style.display='inline-block');
+nao.addEventListener('mouseenter', remove);
+nao.addEventListener('ontouch', remove); // mobile
 
 
-function estilos () {
-    nao.style.display='none';  
+function remove() {
+    document.getElementById('nao').remove()
 }
