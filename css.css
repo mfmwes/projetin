@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'cupid' ;
+    src: url(Beauty.otf);
+}
+
+body {
+    background-image: linear-gradient(to right,rgb(237, 163, 175),white);
+       
+}
+
+#titulo {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'cupid';
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 45px; 
+    font-family: cupid;
+    padding: 8px 28px;
+    background-color: rgba(194, 160, 166, 0.273);
+    border-radius: 62px;
+    border: 1px solid rgba(0, 0, 0, 0.146);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: center;  
+    transition: 300ms;
+}
+
+#opcoes {
+    text-align: center;
+    position: relative;
+    top: 40vh;   
+}
+

@@ -1,0 +1,35 @@
+@font-face {
+    font-family:'cupid' ;
+    src: url(Beauty.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cupid;
+    
+}
+
+body {
+    background-image: linear-gradient(to right,rgb(237, 163, 175),white);      
+}
+
+h1 {
+  
+    font-size: 38px;
+    text-align: center;
+    justify-content: center;
+    top: 100%;
+    left: 10%;
+}
+
+#box {
+    text-align: center;
+    position: relative;
+    top: 30vh;
+}
+
+img {
+    border-radius: 50%;
+}
